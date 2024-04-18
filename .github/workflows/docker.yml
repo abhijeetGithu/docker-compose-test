@@ -43,7 +43,7 @@ jobs:
         tags: abhijeet0708/docker-kite:latest
 
     - name: Run Docker container
-      run: docker run -d -p 5000:5000 --network container:db abhijeet0708/docker-kite:latest
+      run: docker run -d --network container:db abhijeet0708/docker-kite:latest
 
 
 
