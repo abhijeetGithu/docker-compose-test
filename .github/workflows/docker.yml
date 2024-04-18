@@ -28,7 +28,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: yourdockerhubusername/yourimagename:latest
+        tags: abhijeet0708/docker-kite:latest
 
     - name: Run Docker container
       run: docker run -d -p 5000:5000 yourdockerhubusername/yourimagename:latest
